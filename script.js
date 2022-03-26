@@ -47,3 +47,6 @@ function nolasa (m1, m2, m3){
             return false;
         }
     }
+
+    //izvada rezultātu
+    
