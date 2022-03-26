@@ -90,7 +90,7 @@ function nolasa (m1, m2, m3){
         function izvadaTekstu(){
                 //jāizsauc funkciju rezultāts
             const teksts = rezultats();
-                //elementa ar Id "izvade" izvada tekstu
+                //elementa ar Id "izvade" izvada tekstu 
                 console.log(teksts);
 
             const sakne = document.getElementById("izvade");
