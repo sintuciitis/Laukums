@@ -10,7 +10,7 @@ function nolasa (m1, m2, m3){
         return{m1, m2, m3};
     }else{
         console.log(false);
-        return false
+        return false;
     }
 }
 
@@ -51,7 +51,7 @@ function nolasa (m1, m2, m3){
     //izvada rezultātu
 
     function rezultats(){
-        const m=nolasa();{
+        const m=nolasa();
             m1 = m.m1; m2 = m.m2; m3 = m.m3;
             console.log(m1, m2, m3);
 
@@ -71,14 +71,14 @@ function nolasa (m1, m2, m3){
 
         } else {
 
-            if (m1 == m2 || m2 == m3 || m3 == m1);
+            if (m1 == m2 || m2 == m3 || m1 == m3); {
                 t = "Tas ir vienādsānu trijstūris";
         }
         }
 
         const p = perimetrs(m1, m2, m3); //iepriekš izrēķinātais perimetrs
         const s = Math.round(laukums(m1, m2, m3) * 100) / 100; //2 zīmes aiz komata
-            t += "Perimetrs ir " + p + " un laukums ir " + s + ".";
+            t += "Perimetrs ir " + p + " un laukums ir " + s + ".";                                                                      
             
         }
         }
